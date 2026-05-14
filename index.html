@@ -1,30 +1,69 @@
 <html>
     <head>
-        <title>Benches</title>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body{
                 margin: 0px;
                 padding: 20px;
-                background-color: cornflowerblue;
+                background-color: #f9e5ac;
             }
-            h1{
-                color: #000;
+            h1 {
+                color: #a36a16;
+                font-size: 50px;
+                text-align: center;
+            }
+            h2 {
+                color: #a36a16;
             }
             p{
-                color: #000;
+                color: #30270e;
             }
-            .audio-player{
-                margin-top: 20px;
+            img{
+                width: 90%;
+                display: block;
+                margin: auto;
+            }
+            ol{
+                padding: 0;
+                list-style: none;
+                max-width: 500px;
+            }
+            ol li{
+                margin-bottom: 15px;
+            }
+            ol li a{
+                display: block;
+                padding: 15px 20px;
+                background-color: #fff6dd;
+                color: #30270e;
+                text-decoration: none;
+                border-left: 6px solid #a36a16;
+                border-radius: 8px;
+                font-size: 18px;
+            }
+            ol li a:hover{
+                background-color: #f3d98c;
             }
         </style>
     </head>
     <body>
         <h1>Sit Down Next To Me</h1>
-        <p>Insert text here...</p>
-        <div class="audio-player">
-        <audio controls>
-            <source src="audio/greyhound.mp3" type="audio/mpeg">
-        </audio>
+        <h2>Welcome to the Kinsale Benches Project</h2>
+        <p>Insert text here about the home page...</p>
+        <h2>You can find the benches here:</h2>
+        <p>Each bench is marked in the map below with a number in a red circle. To hear a story about each bench, match the number on the map to the number below and click the link to be taken to the recording.</p>
+        <img src="mapKinsale.jpg" alt="Map of Kinsale">
+        
+        <h2>Choose a bench</h2>
+        <ol>
+            <li><a href="butchersRow.html">1. Butchers Row</a></li>
+            <li><a href="greyhound.html">2. Greyhound Bar</a></li>
+            <li><a href="temperanceHall.html">3. Temperance Hall</a></li>
+            <li><a href="fishShed.html">4. Fish Shed</a></li>
+            <li><a href="bowlingGreen.html">5. Bowling Green</a></li>
+        </ol>
+        
     </div>
     </body>
 </html>
