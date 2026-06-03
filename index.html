@@ -50,6 +50,16 @@
             ol li a:hover{
                 background-color: #f3d98c;
             }
+            .map-container{
+                max-width: 1000px;
+                margin: 20px auto;
+            }
+
+            .map-container iframe{
+                width: 100%;
+                height: 500px;
+                border-radius: 10px;
+            }
         </style>
     </head>
     <body>
@@ -59,8 +69,9 @@
         <p>Insert text here about the home page...</p>
         <h2>You can find the benches here:</h2>
         <p>Each bench is marked in the map below with a number in a red circle. To hear a story about each bench, match the number on the map to the number below and click the link to be taken to the recording.</p>
-        <img src="mapKinsale.jpg" alt="Map of Kinsale">
-        
+        <div class="map-container">
+        <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1b_yXitdWMLsagCkCJxUalEwF0ToLsxw&ehbc=2E312F" width="100%" height="500" style="border:0;" loading="lazy"></iframe>
+        </div>
         <h2>Choose a bench</h2>
         <ol>
             <li><a href="butchersRow.html">1. Butchers Row</a></li>
